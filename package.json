@@ -1,6 +1,6 @@
 {
   "name": "system-font-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Give your web app a native look by using the font family of the users OS ",
   "main": "index.js",
   "scripts": {
