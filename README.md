@@ -11,8 +11,8 @@ import { injectGlobal } from 'styled-components'
 import systemFontStack from 'system-font-stack'
 
 injectGlobal`
-    body {
-      font-family: ${systemFontStack};
-    }
-  `
+  body {
+    font-family: ${systemFontStack};
+  }
+`
 ```
