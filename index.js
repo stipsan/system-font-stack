@@ -12,4 +12,4 @@ module.exports = [
   'Droid Sans',
   'Helvetica Neue',
   'sans-serif',
-].join(',')
+].join(', ')
