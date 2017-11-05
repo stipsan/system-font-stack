@@ -1,6 +1,7 @@
+// Ensure the text got the same font as overall UI from user OS
 // https://css-tricks.com/snippets/css/system-font-stack/
 
-module.exports = [
+export default [
   '-apple-system',
   'BlinkMacSystemFont',
   'Segoe UI',
