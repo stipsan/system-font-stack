@@ -59,3 +59,5 @@ typings/
 
 index.js
 index.d.ts
+bundle.js
+bundle.mjs

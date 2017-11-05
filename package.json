@@ -1,11 +1,17 @@
 {
   "name": "system-font-stack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Give your web app a native look by using the font family of the users OS ",
-  "main": "index.js",
+  "main": "bundle.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "npx -p typescript -c 'tsc -d --removeComments index.ts'"
+    "build:module": "npx -p typescript -c 'tsc --removeComments -d -m es2015 -t es2017 index.ts'",
+    "postbuild:module": "cp index.js bundle.mjs",
+    "build:main": "npx -p typescript -c 'tsc --removeComments -m umd index.ts'",
+    "postbuild:main": "mv index.js bundle.js",
+    "prepublishOnly": "yarn build:main && yarn build:module"
   },
   "repository": {
     "type": "git",
