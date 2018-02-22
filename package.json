@@ -1,6 +1,6 @@
 {
   "name": "system-font-stack",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Give your web app a native look by using the font family of the users OS ",
   "main": "bundle.js",
   "module": "index.js",
