@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/stipsan/system-font-stack#readme",
   "devDependencies": {
-    "typescript": "^2.6.1"
+    "typescript": "^3.9.10"
   }
 }
